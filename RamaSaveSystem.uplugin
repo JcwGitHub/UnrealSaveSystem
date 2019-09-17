@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 3,
+	"Version" : 2,
+	"VersionName" : "2.0",
+	"FriendlyName" : "Rama Save System",
+	"Description" : "Save and Load single and multiplayer games and entire worlds full of actors via compressed binary files! New features include Save Tag system and ability to set GUIDs for persistent actors so they have their data loaded but are not destroyed during the loading process.",
+	"Category" : "Rama",
+	"CreatedBy" : "Rama",
+	"CreatedByURL" : "http://ue4code.com/save-system-plugin-world-serialization-dynamic-level-building-save-to-disk-ue4-unreal-engine-4-save-system",
+	"DocsURL" : "http://www.ue4code.com",
+	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/content/6c81d0b2b68f445cb24616fa39a462c2",
+	"SupportURL" : "http://www.ue4code.com",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "RamaSaveSystem",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
